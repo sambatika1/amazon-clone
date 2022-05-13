@@ -6,7 +6,7 @@ function Subtotal() {
       <CurrencyFormat 
       randerText={(value) =>(
           <>
-          <p>subtotal (0 items)
+          <p>subtotal (0 items):
           <strong>0</strong>
           </p>
           <small className="subtotal_gift">
@@ -20,6 +20,7 @@ function Subtotal() {
     displayType={"text"}
     thousandSeparator={true}
     prefix={""} />
+    <button>Procced to Checkout</button>
   </div>;
 }
 
